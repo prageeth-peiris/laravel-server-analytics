@@ -44,7 +44,7 @@ class CreateAnalyticsTable extends Migration
             $table->string('key');
             $table->text('value')->nullable();
 
-            $table->index(['analytics_id', 'key', 'value']);
+           // $table->index(['analytics_id', 'key', 'value']);
         });
     }
 
